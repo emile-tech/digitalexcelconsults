@@ -131,7 +131,7 @@ a:hover {
   background-size: cover;
   padding: 120px 0 25px 0;
   position: relative;
-  background: #02bdd5;
+  background: #079907;
   color: #fff;
 }
 .global-page-header h2 {
@@ -210,7 +210,7 @@ a:hover {
   display: block;
 }
 .navbar .nav-item .nav-link:hover {
-  color: #02bdd5 !important;
+  color: #079907 !important;
 }
 .navbar .nav-item:last-child .nav-link {
   padding-right: 0;
@@ -251,7 +251,7 @@ a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .dropdown-item:hover {
-  color: #02bdd5 !important;
+  color: #079907 !important;
   background: transparent;
 }
 .dropdown:hover .dropdown-menu {
@@ -316,7 +316,7 @@ a:hover {
 }
 
 #call-to-action {
-  background: #02bdd5;
+  background: #911091;
   background-size: cover;
   background-attachment: fixed;
   padding: 80px 0;
@@ -342,7 +342,7 @@ a:hover {
 #call-to-action .block .btn-contact {
   background: #fff;
   border: 2px solid #fff;
-  color: #02bdd5;
+  color: #911091;
   padding: 15px 34px;
   margin-top: 20px;
   font-size: 12px;
@@ -356,7 +356,7 @@ a:hover {
 }
 #call-to-action .block .btn-contact:hover {
   color: #fff;
-  background: #02bdd5;
+  background: #911091;
 }
 
 #about {
@@ -393,14 +393,30 @@ a:hover {
   font-weight: 300;
 }
 .about-feature .about-feature-1 {
-  background: #02bdd5;
+  background: #39ad39;
+  height: 350px;
 }
 .about-feature .about-feature-2 {
-  background: #00B0C7;
+  background: #20a320; 
+  height: 350px;
 }
 .about-feature .about-feature-3 {
-  background: #00A6BB;
+  background: #079907;
+  height: 350px;
 }
+.about-feature .about-feature-4 {
+  background: #a740a7;
+  height: 350px;
+}
+.about-feature .about-feature-5 {
+  background: #9c289c;
+  height: 350px;
+}
+.about-feature .about-feature-6 {
+  background: #911091;
+  height: 350px;
+}
+
 
 .works {
   padding: 80px 0;
@@ -1100,7 +1116,7 @@ article {
   margin-bottom: 0;
 }
 #footer .copyright a {
-  color: #02bdd5;
+  color: #911091;
 }
 #footer .social {
   text-align: right;
@@ -1112,11 +1128,11 @@ article {
 }
 #footer .social li a {
   font-size: 22px;
-  color: #02bdd5;
+  color: #911091;
 }
 
 .cd-headline.slide .cd-words-wrapper {
-  color: #02bdd5;
+  color: #911091;
 }
 
 ul.social-icons {
