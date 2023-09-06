@@ -95,6 +95,11 @@
         },
       ],
     });
+    //get current date for the footer
+    var currentYear = new Date().getFullYear();
+
+    $("#currentYear").text(currentYear);
+    console.log(currentYear);
   });
 
   // fancybox

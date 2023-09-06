@@ -467,10 +467,8 @@ Portfolio Section Start
                 <div class="container">
                     <div class="row content-justify-between">
                         <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
-                            <p class="copyright">Copyright: Design and Developed by <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>. <br> 
-                                Get More Bootstrap Template From Our 
-                                <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a>
-                            </p>
+                          <p class="copyright">&copy; <span id="currentYear"></span> Designed and Developed by <a href="#">Digital Excel Consults</a>.</p>
+
                         </div>
                         <div class="col-md-4 col-12">
                             <!-- Social Media -->
@@ -520,5 +518,12 @@ Portfolio Section Start
 	<script src="plugins/facncybox/jquery.fancybox.js"></script>
 	<!-- template main js -->
 	<script src="js/main.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      var currentYear = new Date().getFullYear();
+      $('#currentYear').text(currentYear);
+    });
+  </script>
  	</body>
 </html>
